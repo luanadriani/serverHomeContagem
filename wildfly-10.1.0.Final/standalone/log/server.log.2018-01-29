@@ -1,0 +1,412 @@
+2018-01-29 11:17:26,493 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2018-01-29 11:17:31,988 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2018-01-29 11:17:32,449 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2018-01-29 11:17:32,464 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/luanadriani/java/server/wildfly-10.1.0.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-8-oracle/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-8-oracle/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_144-b01
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_144
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.144-b01
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = /home/luanadriani/java/server/wildfly-10.1.0.Final
+	jboss.host.name = not-luan
+	jboss.modules.dir = /home/luanadriani/java/server/wildfly-10.1.0.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = not-luan
+	jboss.qualified.host.name = not-luan
+	jboss.server.base.dir = /home/luanadriani/java/server/wildfly-10.1.0.Final/standalone
+	jboss.server.config.dir = /home/luanadriani/java/server/wildfly-10.1.0.Final/standalone/configuration
+	jboss.server.data.dir = /home/luanadriani/java/server/wildfly-10.1.0.Final/standalone/data
+	jboss.server.deploy.dir = /home/luanadriani/java/server/wildfly-10.1.0.Final/standalone/data/content
+	jboss.server.log.dir = /home/luanadriani/java/server/wildfly-10.1.0.Final/standalone/log
+	jboss.server.name = not-luan
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/luanadriani/java/server/wildfly-10.1.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/luanadriani/java/server/wildfly-10.1.0.Final/standalone/configuration/logging.properties
+	module.path = /home/luanadriani/java/server/wildfly-10.1.0.Final/modules
+	org.jboss.boot.log.file = /home/luanadriani/java/server/wildfly-10.1.0.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.10.0-37-generic
+	path.separator = :
+	program.name = JBossTools: WildFly 10.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-8-oracle/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp /home/luanadriani/java/server/wildfly-10.1.0.Final/modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=/home/luanadriani/java/server/wildfly-10.1.0.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = US
+	user.country.format = BR
+	user.dir = /home/luanadriani/java/server/wildfly-10.1.0.Final/bin
+	user.home = /home/luanadriani
+	user.language = en
+	user.language.format = pt
+	user.name = luanadriani
+	user.timezone = America/Sao_Paulo
+2018-01-29 11:17:32,465 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:41207 -Dprogram.name=JBossTools: WildFly 10.x -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/home/luanadriani/java/server/wildfly-10.1.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/home/luanadriani/java/server/wildfly-10.1.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=/home/luanadriani/java/server/wildfly-10.1.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
+2018-01-29 11:17:40,159 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found home-0.0.1-SNAPSHOT.war in deployment directory. To trigger deployment create a file called home-0.0.1-SNAPSHOT.war.dodeploy
+2018-01-29 11:17:40,416 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-01-29 11:17:40,512 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.4.0.Final
+2018-01-29 11:17:40,650 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.4.0.Final
+2018-01-29 11:17:40,915 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-01-29 11:17:40,961 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2018-01-29 11:17:40,967 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 4 core threads with 32 task threads based on your 2 available processors
+2018-01-29 11:17:41,153 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-01-29 11:17:41,366 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2018-01-29 11:17:41,401 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2018-01-29 11:17:41,387 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2018-01-29 11:17:41,588 INFO  [org.jboss.as.security] (MSC service thread 1-3) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2018-01-29 11:17:42,117 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 4.0.21.Final
+2018-01-29 11:17:42,595 INFO  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2018-01-29 11:17:42,988 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 1.4.0.Final starting
+2018-01-29 11:17:42,996 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2018-01-29 11:17:43,266 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-01-29 11:17:43,615 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2018-01-29 11:17:43,818 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-01-29 11:17:44,014 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path '/home/luanadriani/java/server/wildfly-10.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-01-29 11:17:44,205 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+2018-01-29 11:17:44,229 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0018: Host default-host starting
+2018-01-29 11:17:44,900 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 8 (per class), which is derived from the number of CPUs on this host.
+2018-01-29 11:17:44,901 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 32 (per class), which is derived from thread worker pool sizing.
+2018-01-29 11:17:44,951 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-01-29 11:17:45,565 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-01-29 11:17:46,942 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-3) WFLYDM0111: Keystore /home/luanadriani/java/server/wildfly-10.1.0.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-01-29 11:17:47,040 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) WFLYDS0013: Started FileSystemDeploymentService for directory /home/luanadriani/java/server/wildfly-10.1.0.Final/standalone/deployments
+2018-01-29 11:17:47,163 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "mysql-connector-java-5.1.44-bin.jar" (runtime-name: "mysql-connector-java-5.1.44-bin.jar")
+2018-01-29 11:17:47,177 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "home-0.0.1-SNAPSHOT.war" (runtime-name: "home-0.0.1-SNAPSHOT.war")
+2018-01-29 11:17:47,919 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-1) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2018-01-29 11:17:48,539 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-01-29 11:17:48,577 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-01-29 11:17:48,602 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-01-29 11:17:48,604 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-01-29 11:17:48,570 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-01-29 11:17:48,641 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-01-29 11:17:52,916 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2018-01-29 11:17:56,067 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2018-01-29 11:17:57,961 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for homePU
+2018-01-29 11:17:58,967 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2018-01-29 11:17:58,975 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2018-01-29 11:17:59,194 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = mysql-connector-java-5.1.44-bin.jar_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2018-01-29 11:17:59,226 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = mysql-connector-java-5.1.44-bin.jar_com.mysql.jdbc.Driver_5_1
+2018-01-29 11:17:59,251 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:/MySqlDS]
+2018-01-29 11:17:59,254 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'home-0.0.1-SNAPSHOT.war#homePU'
+2018-01-29 11:17:59,687 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 58) HHH000204: Processing PersistenceUnitInfo [
+	name: homePU
+	...]
+2018-01-29 11:18:00,185 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment home-0.0.1-SNAPSHOT.war
+2018-01-29 11:18:01,418 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-4) HV000001: Hibernate Validator 5.2.4.Final
+2018-01-29 11:18:01,778 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 58) HHH000412: Hibernate Core {5.0.10.Final}
+2018-01-29 11:18:01,782 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 58) HHH000206: hibernate.properties not found
+2018-01-29 11:18:01,893 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 58) HHH000021: Bytecode provider name : javassist
+2018-01-29 11:18:02,308 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 58) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-29 11:18:02,664 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'PaisEJB' in deployment unit 'deployment "home-0.0.1-SNAPSHOT.war"' are as follows:
+
+	java:global/home-0.0.1-SNAPSHOT/PaisEJB!controller.ejb.PaisEJB
+	java:app/home-0.0.1-SNAPSHOT/PaisEJB!controller.ejb.PaisEJB
+	java:module/PaisEJB!controller.ejb.PaisEJB
+	java:global/home-0.0.1-SNAPSHOT/PaisEJB
+	java:app/home-0.0.1-SNAPSHOT/PaisEJB
+	java:module/PaisEJB
+
+2018-01-29 11:18:03,965 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-01-29 11:18:03,966 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-01-29 11:18:05,226 INFO  [org.jboss.weld.Version] (MSC service thread 1-1) WELD-000900: 2.3.5 (Final)
+2018-01-29 11:18:05,529 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-01-29 11:18:07,770 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'home-0.0.1-SNAPSHOT.war#homePU'
+2018-01-29 11:18:10,066 ERROR [stderr] (ServerService Thread Pool -- 59) Mon Jan 29 11:18:10 BRST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2018-01-29 11:18:11,074 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 59) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-01-29 11:18:11,796 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 59) Envers integration enabled? : true
+2018-01-29 11:18:16,482 INFO  [org.hibernate.tool.hbm2ddl.SchemaValidator] (ServerService Thread Pool -- 59) HHH000229: Running schema validator
+2018-01-29 11:18:22,379 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 68) Initializing Mojarra 2.2.13.SP1 20160303-1204 for context '/home'
+2018-01-29 11:18:28,098 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 68) Running on PrimeFaces 6.1
+2018-01-29 11:18:28,349 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 68) WFLYUT0021: Registered web context: /home
+2018-01-29 11:18:28,679 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "mysql-connector-java-5.1.44-bin.jar" (runtime-name : "mysql-connector-java-5.1.44-bin.jar")
+2018-01-29 11:18:28,681 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "home-0.0.1-SNAPSHOT.war" (runtime-name : "home-0.0.1-SNAPSHOT.war")
+2018-01-29 11:18:29,557 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-01-29 11:18:29,558 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-01-29 11:18:29,559 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 73552ms - Started 517 of 759 services (413 services are lazy, passive or on-demand)
+2018-01-29 16:15:12,888 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 70) WFLYUT0022: Unregistered web context: /home
+2018-01-29 16:15:28,854 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 69) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'home-0.0.1-SNAPSHOT.war#homePU'
+2018-01-29 16:15:36,621 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 69) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'home-0.0.1-SNAPSHOT.war#homePU'
+2018-01-29 16:15:42,886 INFO  [org.jboss.as.protocol] (management task-10) WFLYPRT0057:  cancelled task by interrupting thread Thread[management-handler-thread - 7,5,management-handler-thread]
+2018-01-29 16:15:55,577 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 69) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2018-01-29 16:16:03,083 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment home-0.0.1-SNAPSHOT.war (runtime-name: home-0.0.1-SNAPSHOT.war) in 53851ms
+2018-01-29 16:16:03,907 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "home-0.0.1-SNAPSHOT.war" (runtime-name: "home-0.0.1-SNAPSHOT.war")
+2018-01-29 16:16:20,877 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for homePU
+2018-01-29 16:16:23,746 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 74) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'home-0.0.1-SNAPSHOT.war#homePU'
+2018-01-29 16:16:25,353 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 74) HHH000204: Processing PersistenceUnitInfo [
+	name: homePU
+	...]
+2018-01-29 16:16:26,293 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment home-0.0.1-SNAPSHOT.war
+2018-01-29 16:16:27,562 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'PaisEJB' in deployment unit 'deployment "home-0.0.1-SNAPSHOT.war"' are as follows:
+
+	java:global/home-0.0.1-SNAPSHOT/PaisEJB!controller.ejb.PaisEJB
+	java:app/home-0.0.1-SNAPSHOT/PaisEJB!controller.ejb.PaisEJB
+	java:module/PaisEJB!controller.ejb.PaisEJB
+	java:global/home-0.0.1-SNAPSHOT/PaisEJB
+	java:app/home-0.0.1-SNAPSHOT/PaisEJB
+	java:module/PaisEJB
+
+2018-01-29 16:16:31,935 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 74) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-01-29 16:16:32,122 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 74) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-01-29 16:16:32,447 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 75) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'home-0.0.1-SNAPSHOT.war#homePU'
+2018-01-29 16:16:32,771 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 74) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-01-29 16:16:34,558 ERROR [stderr] (ServerService Thread Pool -- 75) Mon Jan 29 16:16:34 BRST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2018-01-29 16:16:36,082 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 75) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-01-29 16:16:36,506 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 75) Envers integration enabled? : true
+2018-01-29 16:16:38,679 INFO  [org.hibernate.tool.hbm2ddl.SchemaValidator] (ServerService Thread Pool -- 75) HHH000229: Running schema validator
+2018-01-29 16:16:43,097 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 75) Initializing Mojarra 2.2.13.SP1 20160303-1204 for context '/home'
+2018-01-29 16:16:44,907 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 75) Running on PrimeFaces 6.1
+2018-01-29 16:16:44,976 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0021: Registered web context: /home
+2018-01-29 16:16:47,255 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "home-0.0.1-SNAPSHOT.war" with deployment "home-0.0.1-SNAPSHOT.war"
+2018-01-29 16:17:53,198 INFO  [org.jboss.as.server] (management-handler-thread - 9) WFLYSRV0236: Suspending server with no timeout.
+2018-01-29 16:17:53,287 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2018-01-29 16:17:53,821 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = mysql-connector-java-5.1.44-bin.jar_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2018-01-29 16:17:54,578 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 78) WFLYUT0022: Unregistered web context: /home
+2018-01-29 16:17:54,934 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0019: Host default-host stopping
+2018-01-29 16:17:55,326 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 77) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'home-0.0.1-SNAPSHOT.war#homePU'
+2018-01-29 16:17:55,382 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2018-01-29 16:17:55,486 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 77) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'home-0.0.1-SNAPSHOT.war#homePU'
+2018-01-29 16:17:55,562 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:/MySqlDS]
+2018-01-29 16:17:55,798 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 79) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2018-01-29 16:17:55,915 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment home-0.0.1-SNAPSHOT.war (runtime-name: home-0.0.1-SNAPSHOT.war) in 2276ms
+2018-01-29 16:17:55,955 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2018-01-29 16:17:56,112 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = mysql-connector-java-5.1.44-bin.jar_com.mysql.jdbc.Driver_5_1
+2018-01-29 16:17:56,549 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment mysql-connector-java-5.1.44-bin.jar (runtime-name: mysql-connector-java-5.1.44-bin.jar) in 2910ms
+2018-01-29 16:17:56,738 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Undertow HTTP listener default suspending
+2018-01-29 16:17:56,811 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0008: Undertow HTTPS listener https suspending
+2018-01-29 16:17:56,811 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2018-01-29 16:17:56,812 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2018-01-29 16:17:56,854 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0004: Undertow 1.4.0.Final stopping
+2018-01-29 16:17:57,764 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 4030ms
+2018-01-29 16:19:34,299 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2018-01-29 16:19:35,692 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2018-01-29 16:19:36,026 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2018-01-29 16:19:36,031 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/luanadriani/java/server/wildfly-10.1.0.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-8-oracle/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-8-oracle/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_144-b01
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_144
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.144-b01
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = /home/luanadriani/java/server/wildfly-10.1.0.Final
+	jboss.host.name = not-luan
+	jboss.modules.dir = /home/luanadriani/java/server/wildfly-10.1.0.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = not-luan
+	jboss.qualified.host.name = not-luan
+	jboss.server.base.dir = /home/luanadriani/java/server/wildfly-10.1.0.Final/standalone
+	jboss.server.config.dir = /home/luanadriani/java/server/wildfly-10.1.0.Final/standalone/configuration
+	jboss.server.data.dir = /home/luanadriani/java/server/wildfly-10.1.0.Final/standalone/data
+	jboss.server.deploy.dir = /home/luanadriani/java/server/wildfly-10.1.0.Final/standalone/data/content
+	jboss.server.log.dir = /home/luanadriani/java/server/wildfly-10.1.0.Final/standalone/log
+	jboss.server.name = not-luan
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/luanadriani/java/server/wildfly-10.1.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/luanadriani/java/server/wildfly-10.1.0.Final/standalone/configuration/logging.properties
+	module.path = /home/luanadriani/java/server/wildfly-10.1.0.Final/modules
+	org.jboss.boot.log.file = /home/luanadriani/java/server/wildfly-10.1.0.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.10.0-37-generic
+	path.separator = :
+	program.name = JBossTools: WildFly 10.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-8-oracle/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp /home/luanadriani/java/server/wildfly-10.1.0.Final/modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=/home/luanadriani/java/server/wildfly-10.1.0.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = US
+	user.country.format = BR
+	user.dir = /home/luanadriani/java/server/wildfly-10.1.0.Final/bin
+	user.home = /home/luanadriani
+	user.language = en
+	user.language.format = pt
+	user.name = luanadriani
+	user.timezone = America/Sao_Paulo
+2018-01-29 16:19:36,033 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:33951 -Dprogram.name=JBossTools: WildFly 10.x -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/home/luanadriani/java/server/wildfly-10.1.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/home/luanadriani/java/server/wildfly-10.1.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=/home/luanadriani/java/server/wildfly-10.1.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
+2018-01-29 16:19:43,638 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found home-0.0.1-SNAPSHOT.war in deployment directory. To trigger deployment create a file called home-0.0.1-SNAPSHOT.war.dodeploy
+2018-01-29 16:19:43,778 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-01-29 16:19:43,935 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.4.0.Final
+2018-01-29 16:19:43,967 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.4.0.Final
+2018-01-29 16:19:44,162 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-01-29 16:19:44,158 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 4 core threads with 32 task threads based on your 2 available processors
+2018-01-29 16:19:44,190 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2018-01-29 16:19:44,255 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2018-01-29 16:19:44,250 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2018-01-29 16:19:44,242 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2018-01-29 16:19:44,356 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-01-29 16:19:44,366 INFO  [org.jboss.as.naming] (MSC service thread 1-2) WFLYNAM0003: Starting Naming Service
+2018-01-29 16:19:44,607 INFO  [org.jboss.as.security] (MSC service thread 1-4) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2018-01-29 16:19:44,607 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-01-29 16:19:45,076 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 4.0.21.Final
+2018-01-29 16:19:45,117 INFO  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2018-01-29 16:19:45,139 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2018-01-29 16:19:45,279 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-01-29 16:19:45,516 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 1.4.0.Final starting
+2018-01-29 16:19:45,962 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path '/home/luanadriani/java/server/wildfly-10.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-01-29 16:19:46,096 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0012: Started server default-server.
+2018-01-29 16:19:46,131 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0018: Host default-host starting
+2018-01-29 16:19:46,530 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-01-29 16:19:46,834 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 32 (per class), which is derived from thread worker pool sizing.
+2018-01-29 16:19:46,835 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 8 (per class), which is derived from the number of CPUs on this host.
+2018-01-29 16:19:47,393 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-01-29 16:19:48,266 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-4) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2018-01-29 16:19:48,376 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-4) WFLYDM0111: Keystore /home/luanadriani/java/server/wildfly-10.1.0.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-01-29 16:19:48,392 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) WFLYDS0013: Started FileSystemDeploymentService for directory /home/luanadriani/java/server/wildfly-10.1.0.Final/standalone/deployments
+2018-01-29 16:19:48,428 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-01-29 16:19:48,450 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 65) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-01-29 16:19:48,457 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-01-29 16:19:48,477 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 60) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-01-29 16:19:48,478 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 60) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-01-29 16:19:48,486 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 65) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-01-29 16:19:48,519 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "home-0.0.1-SNAPSHOT.war" (runtime-name: "home-0.0.1-SNAPSHOT.war")
+2018-01-29 16:19:48,544 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "mysql-connector-java-5.1.44-bin.jar" (runtime-name: "mysql-connector-java-5.1.44-bin.jar")
+2018-01-29 16:19:49,750 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2018-01-29 16:19:50,555 INFO  [org.jboss.ws.common.management] (MSC service thread 1-3) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2018-01-29 16:19:50,898 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for homePU
+2018-01-29 16:19:51,801 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2018-01-29 16:19:51,803 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2018-01-29 16:19:51,980 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = mysql-connector-java-5.1.44-bin.jar_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2018-01-29 16:19:51,981 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = mysql-connector-java-5.1.44-bin.jar_com.mysql.jdbc.Driver_5_1
+2018-01-29 16:19:51,995 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:/MySqlDS]
+2018-01-29 16:19:51,997 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 66) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'home-0.0.1-SNAPSHOT.war#homePU'
+2018-01-29 16:19:52,168 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 66) HHH000204: Processing PersistenceUnitInfo [
+	name: homePU
+	...]
+2018-01-29 16:19:52,230 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment home-0.0.1-SNAPSHOT.war
+2018-01-29 16:19:52,778 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 66) HHH000412: Hibernate Core {5.0.10.Final}
+2018-01-29 16:19:52,780 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 66) HHH000206: hibernate.properties not found
+2018-01-29 16:19:52,823 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 66) HHH000021: Bytecode provider name : javassist
+2018-01-29 16:19:53,032 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-2) HV000001: Hibernate Validator 5.2.4.Final
+2018-01-29 16:19:53,164 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 66) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-29 16:19:53,587 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'PaisEJB' in deployment unit 'deployment "home-0.0.1-SNAPSHOT.war"' are as follows:
+
+	java:global/home-0.0.1-SNAPSHOT/PaisEJB!controller.ejb.PaisEJB
+	java:app/home-0.0.1-SNAPSHOT/PaisEJB!controller.ejb.PaisEJB
+	java:module/PaisEJB!controller.ejb.PaisEJB
+	java:global/home-0.0.1-SNAPSHOT/PaisEJB
+	java:app/home-0.0.1-SNAPSHOT/PaisEJB
+	java:module/PaisEJB
+
+2018-01-29 16:19:54,276 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 66) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-01-29 16:19:54,277 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 66) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-01-29 16:19:55,131 INFO  [org.jboss.weld.Version] (MSC service thread 1-2) WELD-000900: 2.3.5 (Final)
+2018-01-29 16:19:55,841 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 66) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-01-29 16:19:56,254 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 66) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'home-0.0.1-SNAPSHOT.war#homePU'
+2018-01-29 16:19:57,042 ERROR [stderr] (ServerService Thread Pool -- 66) Mon Jan 29 16:19:57 BRST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2018-01-29 16:19:57,494 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 66) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-01-29 16:19:57,706 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 66) Envers integration enabled? : true
+2018-01-29 16:19:59,265 INFO  [org.hibernate.tool.hbm2ddl.SchemaValidator] (ServerService Thread Pool -- 66) HHH000229: Running schema validator
+2018-01-29 16:20:03,979 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 65) Initializing Mojarra 2.2.13.SP1 20160303-1204 for context '/home'
+2018-01-29 16:20:07,107 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 65) Running on PrimeFaces 6.1
+2018-01-29 16:20:07,201 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 65) WFLYUT0021: Registered web context: /home
+2018-01-29 16:20:07,281 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "mysql-connector-java-5.1.44-bin.jar" (runtime-name : "mysql-connector-java-5.1.44-bin.jar")
+2018-01-29 16:20:07,289 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "home-0.0.1-SNAPSHOT.war" (runtime-name : "home-0.0.1-SNAPSHOT.war")
+2018-01-29 16:20:07,852 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-01-29 16:20:07,852 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-01-29 16:20:07,853 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 35063ms - Started 517 of 759 services (413 services are lazy, passive or on-demand)
